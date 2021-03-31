@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Malware and Cookie Theft</title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+	
+</head>
+
+<body>
+
+    <h1 style="text-align:center">My wall of things I love about you</h1>
+    <p>
+	<ul>
+            <li>I love the way your smile looks and how bright it is.</li>
+            <br>
+            <li>I love how special you make me feel.</li>
+	    <br>
+            <li>I love how comfortable I can be around you</li>
+            <br>
+	    <li>I love how you listen to my interests, sometimes I feel lonely because no one is willing to lend an ear to my rants and you're always there <3</li>
+         
+			<br>
+		<li>It feels like everything will be ok in the end because of you.</li>
+            <br>
+            <li>You make all this hard work feel worth it.</li>
+            <br>
+	    <li>I don't think anyone has ever understood me more than you do.</li>
+            <br>
+	    <li>I love how I feel in your arms and when you play with my hair. </li>
+            <br>
+	    <li>I love how you carry me in genshin. </li>
+            <br>
+	    <li>I love how every day you become a better person. </li>
+            <br>
+	    <li>I love how much I love you. </li>
+		
+	</ul>	
+    </p>
+    <br>
+	<div style="text-align: center;">
+	<button type="myprec" id="my_button"
+	onclick="functionToExec()">Click here to see how I feel about you
+	</button>
+	<br>
+	<br>
+	<br>
+	    
+	<script type="text/javascript">
+		var a1 = new Audio("1.mp3");
+		var a2 = new Audio("2.mp3");
+		var a3 = new Audio("3.mp3");
+		var a4 = new Audio("4.mp3");
+		var a5 = new Audio("5.mp3");
+		function functionToExec(){
+			var chosen_audio = Math.floor((Math.random() * 5) + 1);
+			if(chosen_audio == 1){
+				a1.play();
+			}else if(chosen_audio == 2){
+				a2.play();
+			}else if(chosen_audio == 3){
+				a3.play();
+			}else if(chosen_audio == 4){
+				a4.play();
+			}else if(chosen_audio == 5){
+				a5.play();
+			}
+			alert("Surprise!! I Love You!!");
+		}
+	</script>
+	
+	</div>
+</body>
+<br/>
+<footer>
+    <a href = "index.html">Click to go back</a>
+</footer>
+
+</html>

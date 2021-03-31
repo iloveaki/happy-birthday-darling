@@ -6,7 +6,7 @@
 
   html{
     font-family: 'Architects Daughter';
-    font-size:15px;
+    font-size:30px;
     background: pink;
     scroll-behavior: smooth;
   }
@@ -40,14 +40,14 @@
   /* The sidebar menu */
   .sidebar {
   height: 100%;
-  width: 300px; /* Set the width of the sidebar */
+  width: 200px; /* Set the width of the sidebar */
   position: fixed; /* sets absolute position */
   z-index: 2; /* Stay on top of other pages */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #000000; /* Black */
+  background-color: #C8A2C8; /* Black */
   padding-top: 20px;
-  overflow: scroll;
+  overflow: hide;
   }
 
   .sidebar p{
